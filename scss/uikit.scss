@@ -1,0 +1,40 @@
+.flex{
+	display: flex;
+
+	&.fwrap{
+		flex-wrap: wrap;
+	}
+	&.fcol{
+		flex-direction: column;
+	}
+
+	&.fcc{
+		justify-content: center;
+		align-items: center;
+	}
+	&.fhc{
+		justify-content: center;
+	}
+	&.fvc{
+		align-items: center;
+	}
+	&.ft{
+		align-items: flex-start;
+	}
+	&.fb{
+		align-items: flex-end;
+	}
+	&.fl{
+		justify-content: start;
+	}
+	&.fr{
+		justify-content: end;
+	}
+}
+
+.btn{
+	outline: none;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}

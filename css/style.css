@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'sublime';
+  src:  url('fonts/sublime.eot?s159mg');
+  src:  url('fonts/sublime.eot?s159mg#iefix') format('embedded-opentype'),
+    url('fonts/sublime.ttf?s159mg') format('truetype'),
+    url('fonts/sublime.woff?s159mg') format('woff'),
+    url('fonts/sublime.svg?s159mg#sublime') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sublime' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+}
+.icon-gamepad:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}

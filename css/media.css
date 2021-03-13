@@ -1,0 +1,461 @@
+@media (max-width: 1100px) {
+  #about .head {
+    margin-bottom: 50px;
+  }
+
+  #about .content .item {
+    margin: 0;
+  }
+
+  #projects .head {
+    padding: 0 25px;
+  }
+
+  #strategy .content .item .info {
+    padding: 15px;
+  }
+  #strategy .content .item .info .name {
+    margin-bottom: 10px;
+  }
+  #strategy .content .item:first-child .info {
+    padding: 15px;
+  }
+
+  #contact .left__bar {
+    min-width: 0;
+    width: 45%;
+  }
+  #contact .right__bar {
+    width: 55%;
+  }
+}
+@media (max-width: 901px) {
+  .main__title {
+    font-size: 140px;
+  }
+
+  .intro .intro__content {
+    min-height: 570px;
+  }
+
+  #about .head {
+    margin: 0;
+  }
+  #about .head .text {
+    position: relative;
+    width: 100%;
+  }
+  #about .content {
+    justify-content: center;
+  }
+  #about .content .item {
+    width: 40%;
+  }
+
+  #projects .content {
+    max-height: 900px;
+  }
+  #projects .content .item.visible {
+    width: 33%;
+    height: 250px;
+  }
+
+  #strategy .content {
+    padding: 0;
+  }
+  #strategy .content .item img {
+    width: 300px;
+    height: 270px;
+  }
+
+  #blog .left__bar .nav__blog {
+    margin: 50px 100px 50px 0;
+  }
+  #blog .content {
+    justify-content: space-between;
+  }
+  #blog .content .item {
+    width: 40%;
+  }
+  #blog .content .item + .item {
+    margin: 0;
+  }
+
+  #contact .right__bar {
+    padding: 20px 25px;
+  }
+
+  #footer .left__bar {
+    padding: 50px 15px;
+  }
+  #footer .left__bar .logo {
+    margin-bottom: 30px;
+    font-size: 48px;
+  }
+  #footer .left__bar .social {
+    max-width: 100%;
+  }
+  #footer .right__bar .title {
+    font-size: 72px;
+    max-width: 100%;
+  }
+
+  #blog .content .item {
+    text-align: center;
+  }
+}
+@media (max-width: 799px) {
+  #contact .right__bar .form {
+    width: 320px;
+  }
+}
+@media (max-width: 761px) {
+  #projects .content .item.visible.active img {
+    width: 45%;
+  }
+  #projects .content .item.visible.active .info {
+    padding: 20px;
+    max-width: 50%;
+  }
+  #projects .content .item.visible.active .info .title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  #strategy .content .item .info .text {
+    font-size: 12px;
+  }
+  #strategy .content .item .info .text p:first-child {
+    font-size: 13px;
+  }
+
+  #team .title {
+    margin-bottom: 25px;
+  }
+  #team .content {
+    flex-direction: column;
+  }
+  #team .content .team .teammates {
+    justify-content: center;
+  }
+
+  #blog .left__bar .nav__blog {
+    margin: 50px 50px 50px 0;
+  }
+}
+@media (max-width: 656px) {
+  .intro {
+    min-height: 0;
+    height: auto;
+  }
+  .intro .intro__header {
+    padding: 0 25px;
+  }
+
+  .main__title {
+    font-size: 72px;
+    line-height: 1.5;
+  }
+
+  #about .head .title {
+    font-size: 48px;
+  }
+  #about .head .suptitle {
+    font-size: 24px;
+  }
+  #about .head .text {
+    margin-top: 25px;
+  }
+  #about .content {
+    justify-content: center;
+    margin: 0 25px;
+  }
+  #about .content .item {
+    width: 100%;
+  }
+
+  #projects .content {
+    max-height: 900px;
+  }
+  #projects .content .item.visible.active {
+    flex-direction: column;
+    padding: 0 25px;
+  }
+  #projects .content .item.visible.active img {
+    width: 80%;
+    max-height: 250px;
+    margin: 0 auto;
+  }
+  #projects .content .item.visible.active .info {
+    padding: 10px;
+    max-width: 100%;
+  }
+  #projects .content .item.visible.active .info .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #projects .content .item.visible.active .info .text {
+    font-size: 13px;
+  }
+  #projects .content .item.visible.active .info .text p:first-child {
+    font-size: 14px;
+  }
+
+  #strategy .content .item {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0;
+  }
+  #strategy .content .item img {
+    margin: 0 auto;
+  }
+  #strategy .content .item .info {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 5px;
+  }
+  #strategy .content .item:first-child .info {
+    padding: 15px 5px;
+  }
+  #strategy .content .item:nth-child(2) img {
+    order: 1;
+  }
+  #strategy .content .item:nth-child(2) .info {
+    order: 2;
+  }
+  #strategy .subtitle {
+    font-size: 13px;
+  }
+  #strategy .text {
+    font-size: 12px;
+  }
+
+  #services .title {
+    margin-bottom: 50px;
+  }
+  #services .content {
+    position: relative;
+    width: auto;
+  }
+
+  #test .title {
+    margin-bottom: 25px;
+  }
+  #test .content {
+    flex-direction: column;
+  }
+  #test .content .text {
+    order: 2;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #test .content .user {
+    order: 1;
+    margin-bottom: 25px;
+  }
+
+  #blog .inner__container {
+    flex-direction: column;
+  }
+  #blog .left__bar .nav__blog {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #blog .left__bar .nav__blog .nav__blog__item {
+    margin-right: 25px;
+  }
+  #blog .content {
+    justify-content: center;
+  }
+  #blog .content .item {
+    margin: 0 20px 25px 20px;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+  #contact .left__bar {
+    min-height: 280px;
+    width: 100%;
+  }
+  #contact .right__bar {
+    width: 100%;
+  }
+  #contact .right__bar .form {
+    float: left;
+    margin-right: 20px;
+  }
+
+  #footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  #footer .left__bar {
+    width: 100%;
+    max-width: 100%;
+    order: 2;
+  }
+  #footer .left__bar .logo {
+    margin-bottom: 10px;
+  }
+  #footer .left__bar .subtitle {
+    display: block;
+    font-size: 20px;
+    margin: 0 auto 50px auto;
+  }
+  #footer .left__bar .social {
+    justify-content: center;
+  }
+  #footer .right__bar {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  #projects .content {
+    height: auto;
+  }
+  #projects .content .item.visible {
+    width: 50%;
+    height: 220px;
+  }
+
+  .intro .menu.fx .bar {
+    display: block;
+  }
+  .intro .menu.fx .logo {
+    font-size: 24px;
+  }
+  .intro .menu.fx .nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 120;
+    background-color: #000e16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .intro .menu.fx .nav .item {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  .intro .menu.fx .nav .item + .item {
+    margin-left: 0;
+  }
+  .intro .menu.fx .nav.active {
+    opacity: 1;
+    pointer-events: auto;
+    transition: 0.48s;
+  }
+
+  #services .content .item {
+    width: 60%;
+  }
+
+  #projects .head .project__nav .nav__item {
+    margin-left: 5px;
+  }
+
+  #blog .content .item {
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+  }
+  #blog .content .item + .item {
+    margin: 25px 0;
+  }
+
+  #contact .right__bar .form {
+    float: none;
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .intro .slogan {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+
+  .intro .intro__content {
+    padding: 25px;
+    min-height: 0;
+    height: 300px;
+  }
+  .intro .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro .nav .item {
+    margin: 5px 0;
+  }
+  .intro .nav .item + .item {
+    margin: 5px 0;
+  }
+
+  #about .head .text p {
+    font-size: 14px;
+  }
+
+  #projects .content .item.visible.active img {
+    width: 100%;
+    margin-bottom: 5px;
+    max-height: 200px;
+  }
+  #projects .content .item.visible.active .info {
+    padding: 0;
+  }
+  #projects .content .item.visible.active .info .text p {
+    margin-bottom: 5px;
+  }
+  #projects .content .item.visible.active .info .text p:first-child {
+    font-size: 11px;
+  }
+
+  #services .content {
+    padding: 0;
+  }
+  #services .content .item {
+    width: 90%;
+  }
+
+  #team .content .team .teammates .item {
+    margin-right: 0;
+  }
+
+  #blog .left__bar .nav__blog {
+    margin: 25px 25px 25px 0;
+  }
+  #blog .left__bar .nav__blog .nav__blog__item {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 380px) {
+  #projects .content .item.visible {
+    height: 190px;
+  }
+
+  #strategy .content .item img {
+    width: 280px;
+    height: 200px;
+  }
+
+  #contact .right__bar .form {
+    margin: 30px 0;
+  }
+  #contact .right__bar .form #imobile {
+    width: 100%;
+  }
+  #contact .right__bar .form #iemail {
+    width: 100%;
+  }
+  #contact .right__bar .location {
+    margin: 30px 0;
+  }
+}

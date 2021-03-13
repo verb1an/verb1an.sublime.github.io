@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+}
+.flex.fwrap {
+  flex-wrap: wrap;
+}
+.flex.fcol {
+  flex-direction: column;
+}
+.flex.fcc {
+  justify-content: center;
+  align-items: center;
+}
+.flex.fhc {
+  justify-content: center;
+}
+.flex.fvc {
+  align-items: center;
+}
+.flex.ft {
+  align-items: flex-start;
+}
+.flex.fb {
+  align-items: flex-end;
+}
+.flex.fl {
+  justify-content: start;
+}
+.flex.fr {
+  justify-content: end;
+}
+
+.btn {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
